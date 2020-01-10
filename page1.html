@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <metaname="viewport"content="width=device-width,	initial-scale=1"></metaname>
+  <link rel="stylesheet" href="page1.css">
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <title>Sudoku</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="row"> -->
+          <!-- <div class="col-sm-9 col-md-7 col-lg-5 mx-auto"> -->
+            <div class="card card-signin my-5">
+              <div class="card-body">
+                <h5 class="card-title text-center">Welcome to sudoku land!</h5>
+                <!-- <form class="form-signin"> -->
+                  <!-- <div class="form-label-group"> -->
+                    <input id="user" class="form-control" placeholder="User Name" type="text" maxlength="4">
+                    <span id="userError"></span>
+                  <!-- </div> -->
+    
+                  <!-- <div class="form-label-group"> -->
+                    <input type="password" id="password" class="form-control" placeholder="Password" required maxlength="4">
+                    <span id="passwordError"></span>
+                  <!-- </div> -->
+    
+
+                  <button id="userLogin-btn" onclick="validateAccount('user','password')" class="btn btn-lg btn-primary btn-block text-uppercase" type="button">Sign in</button>
+                  <button id="guest-btn" onclick="guestLogin()" class="btn btn-lg btn-primary btn-block text-uppercase" type="button">Login as Guest</button>
+                  <hr class="my-4">
+                <!-- </form> -->
+              </div>
+            </div>
+          <!-- </div> -->
+        <!-- </div> -->
+      </div>
+      <script src="page1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <metaname="viewport"content="width=device-width,	initial-scale=1"></metaname>
+    <link rel="stylesheet" href="page3.css">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <title>Soduko</title>
+</head>
+<body>
+  <h1 class="headline" id="headlineUp">Welcome </h1>
+ <h5 class="headline" id="headlineDown">
+      Each of the nine blocks has to contain the numbers 1 to 9 in its squares. <br>
+       Each number can only appear once column, row or 3x3 box. <br> 
+       </h4>
+       <div id="clock"><span id="timeTitle">Your Time:</span>
+       <span id="minutes">00</span>:<span id="seconds">00</span>
+       </div>
+       <br>
+  <div id="container"> 
+
+  </div>
+
+  <div id="options">
+    <button type="button" class="btn btn-secondary" onclick="resetSudoku()">Again</button>
+    <button type="button" class="btn btn-secondary" onclick="finalCheck()">Finish</button>
+  </div>
+  <script src="page3.js"></script>
+</body>
+
+</html>

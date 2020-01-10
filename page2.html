@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="viewprt" content="width=device-width,initial-scale=1"> 
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="page2.css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <meta charset="UTF-8">
+        <title>Sudoku</title>
+    </head>
+
+    <body>
+        <div class="container">
+                    <div class="card my-5">
+                        <div class="card-body">
+                            <h2 class="card-title text-center" id="headline">Welcome </h2> 
+                            <br>
+                            <h5 class="card-text text-center" id="lvl">Please choose your level of difficulty</h5> 
+                            <br>   
+                            <div id="bordering">
+                                <button class="btn btn-primary" id="easy" onclick="diffLvl('easy')">Easy</button>
+                                <button class="btn btn-primary" id="medium" onclick="diffLvl('medium')">Medium</button>
+                                <button class="btn btn-danger" id="hard" onclick="diffLvl('hard')">
+                                    Hell <img id="stan" src="satan.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
+        </div>
+
+        <script src="page2.js"></script>
+    </body>
+</html>

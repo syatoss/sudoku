@@ -1,0 +1,172 @@
+
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+  }
+  
+  
+  body {
+    background-image: url(sudoku_background.png);
+  background-size: 100% 150%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  .card-signin {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    height: 30vh;
+    width: 20vw;
+  }
+  #header{
+    font-weight: 500;
+  }
+  .card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+  
+  .card-signin .card-body {
+    padding: 2rem;
+    background-color: rgba(181, 250, 210,0.1);
+    height: 100%;
+    width: 100%;
+  }
+  
+  .form-signin {
+    width: 100%;
+  }
+  
+  .form-signin .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+  }
+  
+  .form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+    margin-bottom: 0px;
+  }
+  
+  .form-label-group input {
+    height: auto;
+    border-radius: 2rem;
+    margin-bottom: 0px;
+  }
+  
+  .form-label-group>input,
+  .form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+    margin-bottom: 0px;
+  }
+  
+  .form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+    margin-bottom: 0px;
+  }
+  
+  .form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    margin-bottom: 0px;
+  }
+  
+  .form-label-group input:not(:placeholder-shown)~label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    margin-bottom: 0px;/* padding-bottom: calc(var(--input-padding-y) / 3); */
+    font-size: 12px;
+    color: #777;
+  }
+ 
+  #user{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 5vh;
+    font-size: 1.05em;
+    border-radius: 50px;
+  }
+  #password{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 5vh;
+    font-size: 1.05em;
+    border-radius: 50px;
+  }
+  #userLogin-btn{
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  #guest-btn{
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+  }
+  .card.card-signin.my-5{
+    background-color: rgba(181, 250, 210,0.1);
+    height: 100%;
+    width: 100%;
+  }
+  .card-body{
+    background-color: rgba(181, 250, 210,0.1);
+    height: 100%;
+    width: 100%;
+  }
+  .container{
+    margin-top: 13vh;
+    height: 70vh;
+    width: 30vw;
+    margin-left: 34vw;
+    margin-bottom: 13vh;
+  }
+  .card-title.text-center{
+    font: 100 2vw 'Pacifico', Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #userLogin-btn{
+    font: 100 0.88vw 'Pacifico', Helvetica, sans-serif;/*used to be 65%*/
+    margin-top: 2%;
+    width: 100%;
+    height: 5vh;
+    padding-bottom: 8%;
+  }
+  #guest-btn{
+    font: 100 0.88vw 'Pacifico', Helvetica, sans-serif;/*used to be 65%*/
+    width: 100%;
+    height: 5vh;
+    padding-bottom: 8%;
+  }
+  #userError{
+    color: red;
+    font-size: 0.75em;
+    margin-left: 7%;
+    height: 0%;
+  }
+  #passwordError{
+    color: red;
+    font-size: 0.75em;
+    margin-left: 7%;
+    height: 0%;
+  }
+

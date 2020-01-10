@@ -1,0 +1,101 @@
+.headline{
+  text-align: center;
+}
+#headlineUp{
+  font: 100 3vw 'Pacifico', Helvetica, sans-serif;
+}
+#headlineDown{
+  font: 100 1.5vw 'Pacifico', Helvetica, sans-serif;
+}
+
+#container{
+    height:70%;
+    border-radius:transparent;
+    top:80px;
+    margin-left: 32vw;/*17%*/
+    border: none;
+    margin-right: 10%;/*30%*/
+    margin-top: 0.1%;
+}
+  .sodokuNum{
+    padding: 0px;
+    width: 3.5vw;/*10%*/
+    height: 3.5vw;/*9%*/
+    text-align: center;
+    font-size: 2.5vw;/*250%*/
+    caret-color: transparent;
+    outline: none !important;
+    border-style: none;
+    border: 0.05vw solid #A9A9A9;
+    color: black;
+    font: 200 2.5vw 'Pacifico', Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255,0.1);
+  }
+  
+  .sodokuNum:hover{
+    cursor: pointer;
+    border: #007bff solid 0.05vw;
+    outline-color: #007bff;
+  }
+  .sodokuNum:focus{
+    outline: none !important;
+    border: #007bff solid 0.05vw;
+  }
+  #insidegridBorder{
+    border: solid black 3px;
+  }
+   .btn-group{
+    display: block;  
+    margin-left: 38%;
+    margin-top: 1%; 
+  }
+  .btn-group :hover{
+    opacity: 0.8;    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(15, 180, 235);
+  }
+  .btn-secondary {
+    border-radius: 5px;
+    background-color: #4a90e2;
+    font-size: 1.5vw;
+    font-weight: 200;
+    /* vertical-align: middle;
+    text-align: center; */
+    color: #fff;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    height: 3.2vw;
+    width:6.8vw;
+    font: 100 1.4vw 'Pacifico', Helvetica, sans-serif;
+    padding-bottom: 3.1vw;
+    padding-right: 2vw;
+    padding-left: 1.5vw;
+    
+} 
+body{
+  background-image: url(sudoku_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#clock{
+  margin-left: 42vw;
+  font-size:2vw;
+}
+#options{
+  margin-left: 42.5vw;
+  /* font: 100 100% 'Pacifico', Helvetica, sans-serif; */
+}
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('digital-7.ttf');  
+}
+#minutes{
+  font: 200 2vw 'Pacifico', Helvetica, sans-serif;
+}
+#seconds{
+  font: 200 2vw 'Pacifico', Helvetica, sans-serif;
+}
+#clock{
+  font: 200 1.8vw 'Pacifico', Helvetica, sans-serif;
+}
