@@ -20,3 +20,8 @@ Supports the following:
 * when a nubmer already occures on eather a line or the relevant square, the number is highlited.
 * only numbers fit to the slots.
 * if the sudoku was solved currectly the playesr time is displayed in an alert.
+
+
+# Technologies used:
+
+Javascript ES6, Bootstrap 4, CSS3,HTML5.
