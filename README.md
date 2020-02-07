@@ -25,3 +25,7 @@ Supports the following:
 # Technologies used:
 
 Javascript ES6, Bootstrap 4, CSS3,HTML5.
+
+# Link to website
+
+https://syatoss.github.io/sudoku/
